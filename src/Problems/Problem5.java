@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * Count pairs with given sum
- * 
+ *
  */
 
 public class Problem5 {
