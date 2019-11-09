@@ -8,7 +8,9 @@ public class Runner {
         linkedList.insert(6,2);
         linkedList.insert(8,3);
 
-        linkedList.insert(7, 2);
+        linkedList.delete(3);
+        linkedList.delete(2);
+        linkedList.delete(1);
 
 
 //        linkedList.insert(6);
