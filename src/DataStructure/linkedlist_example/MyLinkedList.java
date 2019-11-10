@@ -116,6 +116,51 @@ public class MyLinkedList {
 
     }
 
+    // reverse linked list using iteration
+    public void reverse() {
+        if (size < 2) {
+            return;
+        }
+
+        Node current = head;
+        Node prev = null;
+        Node next = null;
+        int count = 0;
+        while (current != null) {
+
+            next = current.next;
+            current.next = prev;
+            prev = current;
+            current = next;
+
+
+        }
+
+        head = prev;
+        current = null;
+    }
+
+    public void reverseRecursive() {
+        head = reverse(head);
+    }
+
+
+    // reverse using recursion
+    public Node reverse(Node node) {
+
+        if (node.next == null) {
+            return node;
+        }
+
+        Node n = reverse(node.next);
+        node.next.next = node;
+        node.next = null;
+
+        return n;
+
+
+    }
+
     public int size() {
         return size;
     }
