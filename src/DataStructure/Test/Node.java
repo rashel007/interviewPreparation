@@ -1,7 +1,6 @@
-package DataStructure.linkedlist_example;
+package DataStructure.Test;
 
 public class Node {
-
     int data;
     Node next;
 }

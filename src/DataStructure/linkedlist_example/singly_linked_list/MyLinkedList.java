@@ -1,4 +1,4 @@
-package DataStructure.linkedlist_example;
+package DataStructure.linkedlist_example.singly_linked_list;
 
 public class MyLinkedList {
 
