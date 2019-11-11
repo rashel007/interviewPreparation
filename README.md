@@ -6,3 +6,4 @@
 2. [Data Structure-mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
 3. [Android Interview Questions-mindorks](https://github.com/MindorksOpenSource/android-interview-questions)
 4. [LinkedList Problems And Solutions-coding_simplified](https://www.youtube.com/watch?v=dBBm5pltWe4&list=PLt4nG7RVVk1gDMcCZkpjOxZS4XMro29DU)
+5. [How to prepare Resume](https://www.careercup.com/resume)

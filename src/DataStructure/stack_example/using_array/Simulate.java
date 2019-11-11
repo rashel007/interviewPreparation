@@ -1,4 +1,4 @@
-package DataStructure.stack_example;
+package DataStructure.stack_example.using_array;
 
 public class Simulate {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package DataStructure.stack_example;
+package DataStructure.stack_example.using_array;
 
 public class MyStack {
 
@@ -85,5 +85,17 @@ public class MyStack {
      */
     public int size() {
         return top + 1;
+    }
+
+    /**
+     *  checks if stack is empty or nor
+     * @return boolean
+     */
+    public boolean isEmpty() {
+        if (top == -1) {
+            return true;
+        }
+
+        return false;
     }
 }
