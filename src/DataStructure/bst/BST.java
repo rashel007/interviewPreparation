@@ -79,7 +79,45 @@ public class BST {
             return max + 1;
     }
 
-  
+
+    BstNode deleteNode(BstNode root, int data) {
+
+        if (root == null) return null;
+        else if (data < root.data) root.left = deleteNode(root.left, data);
+        else if (data > root.data) root.right = deleteNode(root.right, data);
+        else {
+            if (root.left == null && root.right == null) {
+                root = null;
+                return root;
+            } else if (root.left == null) {
+                root = root.right;
+            } else if (root.right == null) {
+                root = root.left;
+            } else {
+                BstNode temp = findMinD(root.right);
+                root.data = temp.data;
+                root.right = deleteNode(root.right, temp.data);
+            }
+        }
+
+        return root;
+    }
+
+    BstNode findMinD(BstNode root) {
+
+
+        if (root == null) {
+            return null;
+        }
+
+        if (root.left == null) {
+            return root;
+        }
+
+        return findMinD(root.left);
+
+
+    }
 
 
 }

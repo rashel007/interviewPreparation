@@ -17,6 +17,15 @@ public class LevelOrderTraversal {
         root = bst.insert(root, 20);
         root = bst.insert(root, 30);
         root = bst.insert(root, 15);
+        root = bst.insert(root, 40);
+        root = bst.insert(root, 25);
+
+        simulateLOS(root);
+
+        System.out.println("After Delete");
+
+        root = bst.deleteNode(root, 20);
+        root = bst.deleteNode(root, 7);
 
         simulateLOS(root);
 
